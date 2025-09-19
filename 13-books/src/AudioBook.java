@@ -13,7 +13,7 @@ public class AudioBook extends Book{
 
     @Override
     public String toString(){
-        return "Audiobook [Título: '" + super.title + "', Ano: '" + super.year + "', Autor: '" + super.author + "', Tamanho(MB): '" + this.fileSizeInMb + "', Duração(Min): '" + this.playLengthInMinutes +  "'Narrador: '" + this.narrator + "']";
+        return "Audiobook [Título: '" + super.title + "', Ano: '" + super.year + "', Autor: '" + super.author + "', Tamanho(MB): '" + this.fileSizeInMb + "', Duração(Min): '" + this.playLengthInMinutes +  "', Narrador: '" + this.narrator + "']";
     }
 
     public double getFileSizeInMb(){
